@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Varela Round', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+body {
+	margin: 0px;
+	font-family: Arial;
+	line-height: 20px;
+}
+
+header{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: rgb(99, 168, 195);
+}
+
+footer{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: rgb(99, 168, 195);
+}
+
+section{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: rgb(250, 211, 138);
+	min-height: calc(100vh - 150px);
+}
+
+
+/* Classes genericas */
+.section-center{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.align-center{
+	align-items: center;
+}
+
+.container{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.flex{
+	display: flex;
+}
+
+.flex-column{
+	flex-direction: column;
+}
+
+.gap{
+	gap: 25px;
+}
+
+.mr-10{
+	margin-right: 10px;
+}
+
+.pt-20{
+	padding-top: 20px;
+}
+
+/* Classes especificas */
+.header__title{
+    text-align: center;
+	color: white;
+	font-weight: 900;
+	font-size: 1.6rem;
+}
+
+.card__link{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: rgba(234, 245, 246, 0.441);
+	width: 400px;
+	border-radius: 15px;
+	text-align: center;
+	font-weight: 900;
+	color: rgba(0, 0, 0, 0.607);
+	transition: 1.3s;
+}
+
+.card__link:hover{
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+.footer__info{
+	color: white;
+}
+
+/* Responsivo */
+
+@media (max-width: 780px) {
+	.card__link{
+		width: 300px;
+	}
+	.card__link:hover{
+		transform: scale(1);
+	}
+}

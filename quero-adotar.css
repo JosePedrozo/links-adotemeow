@@ -1,0 +1,10 @@
+.btn-submit{
+    padding: 8px;
+    border-radius: 2px;
+}
+
+.input-email{
+    width: 220px;
+    padding: 10px;
+    border-radius: 20px;
+}
