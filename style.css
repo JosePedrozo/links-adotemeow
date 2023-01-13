@@ -16,8 +16,8 @@ body {
 }
 
 header{
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background-color: rgb(99, 168, 195);
 }
 
@@ -31,7 +31,7 @@ section{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	background-color: rgb(250, 211, 138);
-	min-height: calc(100vh - 150px);
+	min-height: calc(100vh - 180px);
 }
 
 
@@ -90,14 +90,19 @@ section{
 	width: 400px;
 	border-radius: 15px;
 	text-align: center;
-	font-weight: 900;
+	font-weight: 200;
 	color: rgba(0, 0, 0, 0.607);
 	transition: 1.3s;
 }
 
 .card__link:hover{
 	cursor: pointer;
-	transform: scale(1.2);
+	transform: scale(1.1);
+}
+
+.footer__content{
+	justify-content: space-between;
+    align-items: center;
 }
 
 .footer__info{
@@ -112,5 +117,9 @@ section{
 	}
 	.card__link:hover{
 		transform: scale(1);
+	}
+	.footer__content{
+		flex-wrap: wrap;
+		gap: 10px;
 	}
 }
